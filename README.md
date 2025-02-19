@@ -10,7 +10,23 @@ To clone repository, open command prompt/terminal:
 
 To clone repository, make sure that Git is installed in your system:
 
-        Windows: `winget install --id Git.Git -e --source winget`
+        Windows: 
+        `winget install --id Git.Git -e --source winget`
+
+        MacOS:
+        `brew install git`
+
+        Debian/Ubuntu-based (APT):
+        `sudo apt update && sudo apt install git -y`
+
+        Fedora (DNF):
+        `sudo dnf install git -y`
+
+        Arch Linux (Pacman):
+        `sudo pacman -S git`
+
+        OpenSUSE (Zypper):
+        `sudo zypper install git`
 
 After downloading Git, make sure that Git is downloaded on your system by running the following command:
 
